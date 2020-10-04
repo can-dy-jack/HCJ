@@ -1,0 +1,22 @@
+.tree{
+    width: 30px;height: 300px;
+    margin-top: 100px;
+    background-color: saddlebrown;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.tree .branch{
+    width: 160px;height: 20px;
+    background-color: peru;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+    display: flex;justify-content: flex-end;
+}
+.tree .branch .leaf {
+    width: 40px;height: 40px;
+    border-radius: 100% 0 100% 0;
+    background-color: green;
+    transform: translateY(-100%);
+}
